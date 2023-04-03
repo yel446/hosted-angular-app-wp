@@ -7,6 +7,11 @@ const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'other', component: OtherComponent },
+  {
+    path: 'remote',
+    loadChildren: () =>
+      import('remoteApp/Component1').then((m) => m.Component1Module),
+  },
   { path: '**', component: HomeComponent },
 ];
 
