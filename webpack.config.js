@@ -37,7 +37,7 @@ module.exports = {
 
       // For hosts (please adjust)
       remotes: {
-        remoteApp: "http://localhost:4201/remoteEntry.js",
+        remoteApp: "https://remote-angular-app-wp.vercel.app/remoteEntry.js",
       },
 
       shared: share({
