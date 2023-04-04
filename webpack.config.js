@@ -37,7 +37,7 @@ module.exports = {
 
       // For hosts (please adjust)
       remotes: {
-        remoteApp: "remoteApp@http://localhost:4201/remoteEntry.js",
+        remoteApp: "http://localhost:4201/remoteEntry.js",
       },
 
       shared: share({
